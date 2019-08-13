@@ -8,10 +8,10 @@ Step: step-working-dir-initializer-79np6:
 {"level":"info","ts":1565716120.1456323,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /workspace/source\""}
 Step: step-place-tools:
 
-Step: step-git-source-*****k-quickrepotest-master-8zrjf:
+Step: step-git-source-******-quickrepotest-master-8zrjf:
 
 {"level":"warn","ts":1565716128.2070177,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/master\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1565716128.3887887,"logger":"fallback-logger","caller":"git/git.go:102","msg":"Successfully cloned https://github.com/*****k/quickrepotest.git @ v0.0.1 in path /workspace/source"}
+{"level":"info","ts":1565716128.3887887,"logger":"fallback-logger","caller":"git/git.go:102","msg":"Successfully cloned https://github.com/******/quickrepotest.git @ v0.0.1 in path /workspace/source"}
 Step: step-git-merge:
 
 WARNING: no SHAs to merge, falling back to initial cloned commit
@@ -185,7 +185,7 @@ Cleaning up locks
 2019/08/13 17:09:12 pushed blob: sha256:e8bdb7c1eabeb46891d4b38aaa9d81d1c36ae5f812815566df8a3a195f50481b
 2019/08/13 17:09:12 pushed blob: sha256:1ebcc58537a5bcacee61e5494ba8b0fd5edcb7a14293df06664dd46b6e2d5c6f
 2019/08/13 17:09:29 pushed blob: sha256:da10371a0dd3566855b31d7f06a01c5dd2a1a98f688259dda6545299ec5a0408
-2019/08/13 17:09:30 693213048138.dkr.ecr.us-east-1.amazonaws.com/*****k/quickrepotest:0.0.1: digest: sha256:d444d92aa76b755d1c615ec5f9f83289a3d7466de1bb53f5ea1c2f8f4975669b size: 4634
+2019/08/13 17:09:30 693213048138.dkr.ecr.us-east-1.amazonaws.com/******/quickrepotest:0.0.1: digest: sha256:d444d92aa76b755d1c615ec5f9f83289a3d7466de1bb53f5ea1c2f8f4975669b size: 4634
 Step: step-promote-changelog:
 
 Converted /workspace/source to an unshallow repository
